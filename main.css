@@ -13,6 +13,7 @@ header {
 
 a {
     color: #808080;
+    text-decoration: none;
 }
 
 h1 {
@@ -130,7 +131,6 @@ these make the slideshow work
 
 /*
 non-essential styles:
-just for appearance; change whatever you want
 */
 
 .slide {

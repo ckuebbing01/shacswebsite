@@ -1,9 +1,46 @@
 @media screen and (min-width: 660px) {
+
+/*******************
+Slideshow:
+*******************/
+.slide {
+    font-size: 24px;
+    padding: 20px;
+    }
     
-/*******************************
-Two column layout
-*******************************/
-
-
-
+/********************
+Contact Us Columns
+*********************/
+.row {
+  display: flex;
 }
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+    
+/********************
+General
+*********************/
+
+h1{
+  font-size: 59px;
+  }
+
+h2,
+  h3 {
+    font-size: 30px;
+    }
+
+p{
+    font-size: 24px;
+    }
+    
+li{
+    font-size: 24px;
+}
+    
+/*************************
+Student Spotlight Columns
+**************************/
