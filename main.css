@@ -23,6 +23,10 @@ h1 {
     font-family: 'Annie Use Your Telescope', cursive;
 }
 
+h2{
+    text-decoration: underline;
+}
+
 h2,
 h3{
     color: #fff;
@@ -145,10 +149,10 @@ non-essential styles:
     background: green;
 }
 .slide:nth-of-type(2) {
-    background: gold;
+    background: #ffea00;
 }
 .slide:nth-of-type(3) {
-    background: red;
+    background: #ee3124;
 }
 .slide:nth-of-type(4) {
     background: lightblue;
