@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 var slides = document.querySelectorAll("#slides .slide");
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide, 5000);
+var slideInterval = setInterval(nextSlide, 9000);
 
 function nextSlide() {
     slides[currentSlide].className = "slide";
@@ -21,7 +21,7 @@ function pauseSlideshow() {
 function playSlideshow() {
     pauseButton.innerHTML = 'Pause';
     playing = true;
-    slideInterval = setInterval(nextSlide,5000);
+    slideInterval = setInterval(nextSlide,9000);
 }
 
 pauseButton.onclick = function() {
